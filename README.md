@@ -37,6 +37,6 @@ Create Replication Slot, notes: each slot must have unique name accross all data
 SELECT PG_CREATE_LOGICAL_REPLICATION_SLOT('REPLICATION_SLOT_NAME', 'pgoutput');
 ```
 
-Refs : [](https://cloud.google.com/datastream/docs/configure-cloudsql-psql)
+Refs : https://cloud.google.com/datastream/docs/configure-cloudsql-psql
 
 
